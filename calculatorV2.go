@@ -115,7 +115,7 @@ const (
 )
 
 func main() {
-
+	fmt.Println("Привет Kata Academy")
 	fmt.Println("Введите A и B")
 
 	input, _ := bufio.NewReader(os.Stdin).ReadString('\n')
